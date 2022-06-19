@@ -48,7 +48,7 @@ class CompteBancaire
     public function debiterCompte($montant) {
         $this -> _soldeInitial -= $montant;
     }
-    public function virementCompte($montant, $compteCible) { // compteCible = compte a créditer
+    public function virementCompte($montant, $compteCible) { // compteCible = compte à créditer
         $this->debiterCompte($montant);
         $compteCible->crediterCompte($montant);
     }
