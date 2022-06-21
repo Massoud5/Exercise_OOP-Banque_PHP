@@ -1,6 +1,6 @@
-# Elan Formation Exercice
+# Elan Formation Exercise
 
-## POO Banque
+## OOP Banque
 
 
 ### What I learned:
